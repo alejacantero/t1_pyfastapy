@@ -1,0 +1,1 @@
+#encarpetado, conexicion con la base  de datos, creacion del modelo,iniciacion del controller
