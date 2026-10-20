@@ -18,7 +18,7 @@ nueva_mesa={
     "agender": "male"
     }
 
-collection.insert.one(nueva_mesa)
+collection.insert_one(nueva_mesa)
 print("documento insertado en la coleccion 'mesa' de la base de datos 'amb70'")
 
 try:
@@ -27,5 +27,3 @@ try:
     print("conexion exitosa a mongoDB")
 except (ConnectionFailure, ServerSelectionTimeoutError) as e:
     print(f"error al conectar a mongoDB: {e}")
-finally:
-    client.close()
