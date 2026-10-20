@@ -17,4 +17,7 @@ class TraineeUpdateModel(BaseModel):
     age: Optional[str] = None
     program: Optional[str] = None
     record_number: Optional[int] =None
+
+traineeModel = TraineeModel
+traineeUpdateModel = TraineeUpdateModel
     
