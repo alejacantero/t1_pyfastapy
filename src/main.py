@@ -1,14 +1,14 @@
 from fastapi import FastAPI, HTTPException, status
 from pymongo.errors import PyMongoError
 
-from src.templates.controllers import (
+from src.templates.controlles import (
     create_trainee,
     get_all_trainees,
     get_trainee_by_id,
     update_trainee,
     delete_trainee,
 )
-from src.models.model import TraineeModel, TraineeUpdateModel
+from models.models import TraineeModel, TraineeUpdateModel
 
 # Ejecutar desde la carpeta tll_fastapi:
 # uvicorn src.main:app --reload

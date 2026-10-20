@@ -8,7 +8,7 @@ MONGO_URI = "mongodb+srv://canteroalejandra28_db_user:P73R3WVZoT5mXlwh@cluster0.
 
 client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000) # tiempo de espera de 5 segundos 
 
-db = client.dataap
+db = client.data_ap
 collection = db.trainee
 
 try:

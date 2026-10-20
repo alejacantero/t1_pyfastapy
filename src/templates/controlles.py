@@ -1,6 +1,6 @@
 from bson import ObjectId
 from src.models.database import collection
-from src.models.model import TraineeModel, TraineeUpdateModel
+from models.models import TraineeModel, TraineeUpdateModel
 
 def helper_trainee(trainne) -> dict:
     return {
